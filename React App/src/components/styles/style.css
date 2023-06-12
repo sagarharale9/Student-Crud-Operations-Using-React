@@ -1,0 +1,155 @@
+
+#trash{
+    width: 30px;
+    height: 30px;
+}
+#edit{
+    width: 25px;
+    height: 25px;
+}
+#right{
+  width: 35px;
+    height: 35px;
+}
+#wrong{
+  width: 20px;
+    height: 20px;
+}
+
+
+
+#logout{
+    cursor: pointer;
+}
+#datas{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#mHead{
+    color: rgb(235, 15, 15);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+#delete-modal {
+    padding: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(213, 229, 230);
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+.btn-lg {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#menus {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    font-size: x-large;
+}
+
+#addbtn {
+
+    height: 60px;
+    width: 80px;
+    float: right;
+}
+
+#btn {
+    text-align: center;
+}
+
+#sidebar {
+    background-color: rgb(80, 74, 74);
+}
+#nav{
+     background-color: #e3f2fd;
+}
+
+#heading {
+    text-align: center;
+    color: skyblue;
+}
+
+@media screen and (max-width: 767px) {
+    #ross.content {
+        height: auto;
+    }
+}
+
+
+/* Add your custom CSS styles here */
+
+#table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #table th,
+  #table td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #table th {
+    background-color: #4a4a4a;
+    color: #fff;
+  }
+  
+  #table td img {
+    cursor: pointer;
+  }
+  
+  #table tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .delete-popup {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fade-in 0.3s ease-in-out;
+  }
+  
+  .delete-popup h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .delete-popup p {
+    margin-bottom: 5px;
+  }
+  #head{
+color: red;
+font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  #line{
+    color: darkgoldenrod;
+  }
+  #model{
+    border-radius: 10px;
+    
+  }
+ 
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translate(-50%, -50%) scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1);
+    }
+  }
+  
+
+
+ 
